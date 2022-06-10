@@ -1,0 +1,45 @@
+Judul Aplikasi : e-health
+background : semakin berkembangnya teknologi,banyak orang" yang membuat suatu pekerjaan menjadi lebih mudah.termasuk pada
+saat masa pandemi ini,selain menghindari kerumunan,masyarakat juga banyak yang telah menerapkan hidup sehat.Tim kami 
+berkerjasama membuat aplikasi dengan nama e-health untuk membantu masyarakat dalam pola hidup sehat,memudahkan dalam
+konsultasi dengan dokter melalui chat dan lainnya. 
+
+fitur:
+fitur di tampilan awal
+1. MAKANAN
+fitur ini menjelaskan tentang jenis" makanan apa yg sehat untuk di konsumsi beserta informasi mengenai makanan tersebut.
+contoh dari fitur ini:
+  a. Sayuran
+	- kangkung merupakan sayuran yang banyak di minati oleh semua orang.
+  b. Daging
+	- Sapi. gizi yang di kandung sapi dapat membantu mencegah penyakit.
+
+2. OLAHRAGA 
+fitur ini menjelaskna bagaimana cara menjaga gaya hidup yang sehat.user dapat menggunakan fitur ini jika ingin mengetahui
+lebih banyak tentang informasi olahraga yang baik untuk kesehatan.
+contoh:
+  a. Senam, ada banyak jenis senam, senam yang...
+  b. Cabang Olahraga 5 jari, kalian pasti tidak asing dengan cabang olahraga ini, yang biasa di singkat co...
+
+3. INFO PENYAKIT 
+fitur ini membagikan informasi tentang berbagai macam penyakit.user dapat menggunakan fitur ini jika ingin mencari
+tau tentang berbagai penyakit.tak hanya itu,user juga bisa gejala apa saja yang terjadi pada penyakit tersebut.
+contoh:penyakit kanker disebabkan karena adanya ....
+
+4. tempat cerita
+fitur ini merupakan sebuah fitur chat yg membantu pengguna untuk bercerita mengenai apa yg di alami oleh pengguna.
+fitur ini akan di hubungkan dengan admin yg bertugas pada aplikasi tersebut.biasanya fitur ini digunakan pengguna
+jika ingin bercerita lebih santai.
+
+5.rumah sakit
+pada fitur ini,pengguna akan di bantu mencarikan rumah sakit terdekat dari lokasi pengguna.sama halnya dengan 
+fitur maps.
+
+6. BERBAGI INFO.
+ pengguana bisa saling berinteraksi  dengan pengguna lain yg memakai aplikasi e-health.
+fitur ini seperti grup chat dimana user bisa bertukar informasi dengan user lainnya.
+
+7. TANYA DOKTER
+user dapat berkonsultasi dengan dokter melalui fitur ini.
+fitur ini akan membantu user dalam konsultasi online yang di hubungkan seperti chat.
+
