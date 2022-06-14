@@ -14,7 +14,7 @@ class _infokesehatanState extends State<infokesehatan> {
     {"Tittle" : "Kenali penyakit kanker lebih dalam yuk","Subtitle" : "Kanker atau tumor ganas adalah pertumbuhan sel atau jaringan yang tidak terkendali","gambar" : "assets/penyakit/2.png"},
     {"Tittle" : "Bagaimanakah cara sembuh dari Covid-19?","Subtitle" : "Banyak cara untuk sembuh dari covid 10.namun beberapa hal yang harus di perhatikan","gambar" : "assets/penyakit/3.jpeg"},
     {"Tittle" : "Tubuh cepat lelah,waspada berbagai penyakit berikut ini","Subtitle" : "Lelah dapat dikatakan normal jika bisa diatasi dengan tidur.namun bagaimana","gambar" : "assets/penyakit/4.jpg"},
-    {"Tittle" : "Vaksin Booster COVID-19 apa bedanya dengan vaksin biasa?","Subtitle" : "subtitle2","gambar" : "assets/penyakit/5.jpg"},
+    {"Tittle" : "Vaksin Booster COVID-19 apa bedanya dengan vaksin biasa?","Subtitle" : "Banyaknya masyarakat yang sudah melakukan vaksinisasi,tapi taukah anda apa perbedaan vaksinisasi covid-19 dengan vaksin lainnya?","gambar" : "assets/penyakit/5.jpg"},
 
   ];
   Widget build(BuildContext context) {

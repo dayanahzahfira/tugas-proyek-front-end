@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/screen/infokesehatan.dart';
 import 'package:flutter_application_1/screen/profile.dart';
+import 'package:flutter_application_1/screen/rumahsakit.dart';
+import 'package:flutter_application_1/screen/tanyadokter.dart';
 
 class homescreen extends StatefulWidget {
   homescreen({Key? key}) : super(key: key);
@@ -77,7 +79,9 @@ class _homescreenState extends State<homescreen> {
         margin: EdgeInsets.symmetric(horizontal: 100),
         child: Column(
         children: [
-          Row(children: [TextButton(onPressed: (){}, child: Column(children: [Container(
+          Row(children: [TextButton(onPressed: (){
+            Navigator.push(context, MaterialPageRoute(builder: (context)=>tanyadokter()));
+          }, child: Column(children: [Container(
             width: 50,
             height: 50,
             decoration: BoxDecoration(borderRadius: BorderRadius.all(Radius.circular(40)),
@@ -87,7 +91,9 @@ class _homescreenState extends State<homescreen> {
           Text("Tanya"),Text('Dokter')],),style: TextButton.styleFrom(
             padding: EdgeInsets.all(0)
           ),),
-          TextButton(onPressed: (){}, child: Column(children: [Container(
+          TextButton(onPressed: (){
+            Navigator.push(context, MaterialPageRoute(builder: (context) => rumahsakit()));
+          }, child: Column(children: [Container(
             width: 50,
             height: 50,
             decoration: BoxDecoration(borderRadius: BorderRadius.all(Radius.circular(40)),
@@ -97,7 +103,9 @@ class _homescreenState extends State<homescreen> {
           Text("Rumah"),Text("Sakit")],),style: TextButton.styleFrom(
             padding: EdgeInsets.all(0)
           ),),
-          TextButton(onPressed: (){}, child: Column(children: [Container(
+          TextButton(onPressed: (){
+            
+          }, child: Column(children: [Container(
             width: 50,
             height: 50,
             decoration: BoxDecoration(borderRadius: BorderRadius.all(Radius.circular(40)),
@@ -174,7 +182,7 @@ class _homescreenState extends State<homescreen> {
                    TextField(
               controller: singer,
               decoration: InputDecoration(
-                hintText: "NIK",
+                hintText: "Kartu Indonesia Sehat",
                 labelText: "NIK",
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(20)
@@ -184,7 +192,7 @@ class _homescreenState extends State<homescreen> {
             ElevatedButton(onPressed: (){}, child: Text("tekan"))
                 ],
               ));
-            }, child: Image.asset("assets/vaksin.jpg")),
+            }, child: Image.asset("assets/bpjs.jpg")),
           ),
               ],
             ),

@@ -9,11 +9,11 @@ class notification extends StatefulWidget {
 class _notificationState extends State<notification> {
   @override
   List data = [
-    {"Tittle" : "Dokter Budi sedang malakukan siaran langsung: “Apakah OBAT HERBAL lebih ampuh dari RESEP DOKTER ","Subtitle" : "Batuk biasa dan batuk gejala COVID-19 memang tampak mirip. ","gambar" : "assets/penyakit/1.jpg"},
-    {"Tittle" : "Kenali penyakit kanker lebih dalam yuk","Subtitle" : "Kanker atau tumor ganas adalah pertumbuhan sel atau jaringan yang tidak terkendali","gambar" : "assets/penyakit/2.png"},
-    {"Tittle" : "Bagaimanakah cara sembuh dari Covid-19?","Subtitle" : "Banyak cara untuk sembuh dari covid 10.namun beberapa hal yang harus di perhatikan","gambar" : "assets/penyakit/3.jpeg"},
-    {"Tittle" : "Tubuh cepat lelah,waspada berbagai penyakit berikut ini","Subtitle" : "Lelah dapat dikatakan normal jika bisa diatasi dengan tidur.namun bagaimana","gambar" : "assets/penyakit/4.jpg"},
-    {"Tittle" : "Vaksin Booster COVID-19 apa bedanya dengan vaksin biasa?","Subtitle" : "subtitle2","gambar" : "assets/penyakit/5.jpg"},
+    {"Tittle" : "Dokter Budi sedang malakukan siaran langsung: “Apakah OBAT HERBAL lebih ampuh dari RESEP DOKTER ","Subtitle" : "Baru Saja","gambar" : "assets/penyakit/1.jpg"},
+    {"Tittle" : "Dokter abdul membalas pertanyaan anda tentang Sayuran kangkung","Subtitle" : "2 jam yang lalu","gambar" : "assets/penyakit/2.png"},
+    {"Tittle" : "Dokter Budi sedang malakukan siaran langsung: “Hidup sehat tanpa Rokok”","Subtitle" : "5 jam yang lalu","gambar" : "assets/penyakit/3.jpeg"},
+    {"Tittle" : "Poniman dan 134 lainnya telah mengikuti anda, lihat aktivitas apa yang mereka lakukan","Subtitle" : "7 jam yang lalu","gambar" : "assets/penyakit/4.jpg"},
+    {"Tittle" : "Dokter Arief sedang melaksanakan siaran langsung ","Subtitle" : "2 hari yang lalu","gambar" : "assets/penyakit/5.jpg"},
 
   ];
   Widget build(BuildContext context) {
