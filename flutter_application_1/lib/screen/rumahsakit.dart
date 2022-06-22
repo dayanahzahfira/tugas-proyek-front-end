@@ -9,7 +9,12 @@ class rumahsakit extends StatefulWidget {
 
 class _rumahsakitState extends State<rumahsakit> {
   @override
-  List datars = [{"gambarRS" : "assets/rumah sakit/rumah sakit uii.jpg","nama" : "Rumah Sakit Universitas Islam Indonesia"}];
+  List datars = [{"gambarRS" : "assets/rumah sakit/rumah sakit uii.jpg","nama" : "Rumah Sakit Universitas Islam Indonesia"},
+                 {"gambarRS" : "assets/rumah sakit/advent.jpg","nama" : "Rumah sakit Advent"},
+                 {"gambarRS" : "assets/rumah sakit/murni teguh.jpg","nama" : "Rumah Sakit Murni Teguh memorial"},
+                 {"gambarRS" : "assets/rumah sakit/aminah.jpg","nama" : "Rumah Sakit Aminah"},
+                 {"gambarRS" : "assets/rumah sakit/rumah sakit uii.jpg","nama" : "Rumah Sakit Universitas Islam Indonesia"},
+                 {"gambarRS" : "assets/rumah sakit/rumah sakit uii.jpg","nama" : "Rumah Sakit Universitas Islam Indonesia"},];
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text("Rumah Sakit")),

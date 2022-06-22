@@ -10,8 +10,15 @@ class tanyadokter extends StatefulWidget {
 class _tanyadokterState extends State<tanyadokter> {
   @override
   List dokter = [
-    {"fotodokter" : "assets/dokter/dokter duda.jpeg","nama" : "Dayanah Zahfira","spesialis" : "khusus duda"},
-    {"fotodokter" : "assets/dokter/dokter duda.jpeg","nama" : "Dayanah Zahfira","spesialis" : "khusus duda"},
+    {"fotodokter" : "assets/dokter/dokter satu.jpg","nama" : "Dr.Novira Sulfianti, SP.M","spesialis" : "Spesialis Mata"},
+    {"fotodokter" : "assets/dokter/dokter dua.jpg","nama" : "Dr. Pranoto Trilakson M.Ked, SP.A","spesialis" : "Spesialis Anak"},
+    {"fotodokter" : "assets/dokter/dokter tiga.jpg","nama" : "Dr. R. Arief Banu Pradipta Sp.PD","spesialis" : "Spesialis Penyakit dalam"},
+    {"fotodokter" : "assets/dokter/dokter empat.png","nama" : "Dr. Fifianti Putri Adela, SP.OG","spesialis" : "Sepesialis kandungan"},
+    {"fotodokter" : "assets/dokter/dokter duda.jpeg","nama" : "Dr. Agusnadi Talah, Ap.A","spesialis" : "khusus Anak"},
+    {"fotodokter" : "assets/dokter/fadhil.jpeg","nama" : "Dr. Fadhil, Ap.A","spesialis" : "khusus Anak"},
+    
+
+
   ];
   Widget build(BuildContext context) {
     return Scaffold(
@@ -54,7 +61,7 @@ class _tanyadokterState extends State<tanyadokter> {
                     ],
                   ),
                   Container(
-                    child: ElevatedButton(child: Text("Spesialis"),onPressed: (){},),
+                    child: ElevatedButton(child: Text("konsultasi"),onPressed: (){},),
                   )
                 ],
               ),
