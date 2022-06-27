@@ -10,10 +10,10 @@ class rumahsakit extends StatefulWidget {
 class _rumahsakitState extends State<rumahsakit> {
   @override
   List datars = [{"gambarRS" : "assets/rumah sakit/rumah sakit uii.jpg","nama" : "Rumah Sakit Universitas Islam Indonesia"},
-                 {"gambarRS" : "assets/rumah sakit/advent.jpg","nama" : "Rumah sakit Advent"},
+                 {"gambarRS" : "assets/rumah sakit/advent.jpg","nama" : "Rumah sakit Advent Sumatra Utara"},
                  {"gambarRS" : "assets/rumah sakit/murni teguh.jpg","nama" : "Rumah Sakit Murni Teguh memorial"},
-                 {"gambarRS" : "assets/rumah sakit/aminah.jpg","nama" : "Rumah Sakit Aminah"},
-                 {"gambarRS" : "assets/rumah sakit/rumah sakit uii.jpg","nama" : "Rumah Sakit Universitas Islam Indonesia"},
+                 {"gambarRS" : "assets/rumah sakit/aminah.jpg","nama" : "Rumah Sakit Aminah Kota Tanggerang"},
+                 {"gambarRS" : "assets/rumah sakit/elisabeth.jpeg","nama" : "Rumah Sakit Elisabeth Medan"},
                  {"gambarRS" : "assets/rumah sakit/rumah sakit uii.jpg","nama" : "Rumah Sakit Universitas Islam Indonesia"},];
   Widget build(BuildContext context) {
     return Scaffold(
@@ -49,7 +49,7 @@ class _rumahsakitState extends State<rumahsakit> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             IconButton(onPressed: (){}, icon: Icon(Icons.add_call)),
-                            IconButton(onPressed: (){}, icon: Icon(Icons.add_call)),
+                            IconButton(onPressed: (){}, icon: Icon(Icons.chat)),
                           ],
                         ),
                       )
