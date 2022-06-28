@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/screen/chat_screen.dart';
 
 class tanyadokter extends StatefulWidget {
   tanyadokter({Key? key}) : super(key: key);
@@ -69,7 +70,7 @@ class _tanyadokterState extends State<tanyadokter> {
                     ],
                   ),
                   Container(
-                    child: ElevatedButton(child: Text("konsultasi"),onPressed: (){},),
+                    child: GestureDetector(child: Text("konsultasi"),onTap: (){Navigator.push(context, MaterialPageRoute(builder: ((context) => chatscreen())));},),
                   )
                 ],
               ),
